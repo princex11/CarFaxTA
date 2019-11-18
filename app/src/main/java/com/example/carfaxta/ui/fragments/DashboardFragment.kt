@@ -43,7 +43,7 @@ class DashboardFragment : Fragment() {
         binding = DataBindingUtil.inflate(inflater, R.layout.dashboard_fragment, container, false)
         binding.lifecycleOwner = this
         binding.recyclerViewDashboardFragment.layoutManager = LinearLayoutManager(context)
-        viewModel.getCars().observe(this, Observer {
+        viewModel.carFaxModel.observe(this, Observer {
             binding.recyclerViewDashboardFragment.adapter = DashboardRecyclerViewAdapter(it)
         })
         binding.executePendingBindings()
