@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CARFAX</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="location">%1$s, %2$s</string>
+    <string name="price">$%1$s</string>
+    <string name="mileageK">%1$sk</string>
+    <string name="mileage">%1$s</string>
+    <string name="transmission">Transmission</string>
+    <string name="body_style">Body Style</string>
+    <string name="engine">Engine</string>
+    <string name="fuel">Fuel</string>
+    <string name="call_dealer">CALL DEALER</string>
+    <string name="drive_type">Drive Type</string>
+    <string name="interior_color">Interior Color</string>
+    <string name="exterior_color">Exterior Color</string>
+    <string name="location_label">Location</string>
+    <string name="vehicle_info">Vehicle Info</string>
+</resources>
